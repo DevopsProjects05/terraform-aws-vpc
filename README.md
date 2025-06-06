@@ -46,6 +46,11 @@ Use the `vpc-module-test` directory to test the VPC module with sample configura
 └── s3-backend/ # S3 bucket and DynamoDB table for state management
 ```
 
+## Architecture
+---
+![Architecture](/module.svg)
+
+
 
 ---
 
@@ -65,11 +70,7 @@ This module provisions the following resources:
 - Subnet and route table associations  
 
 
-## Architecture
----
-![Architecture](/module.svg)
 
----
 
 ---
 
