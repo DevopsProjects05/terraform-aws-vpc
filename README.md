@@ -63,9 +63,13 @@ This module provisions the following resources:
 - Private Route Table  
 - Database Route Table  
 - Subnet and route table associations  
-- VPC peering (if requested by the user)  
-  - Adds the peering route in the default VPC if the user does not provide an acceptor VPC explicitly.  
-  - Adds peering routes in public, private, and database route tables.  
+
+
+## Architecture
+---
+![Architecture](/module.svg)
+
+---
 
 ---
 
