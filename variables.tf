@@ -18,17 +18,17 @@ variable "environment" {
 
 variable "public_subnets_tags" {
   type    = map(string)
-  default = {}
+  
 }
 
 variable "private_subnets_tags" {
   type    = map(string)
-  default = {}
+  
 }
 
 variable "database_subnets_tags" {
   type    = map(string)
-  default = {}
+  
 }
 
 
