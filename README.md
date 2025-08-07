@@ -4,7 +4,7 @@ This project includes:
 - **S3 Backend for State Management**: A secure, versioned, and highly available storage solution for Terraform state files, with lifecycle policies, encryption, and public access blocked. Also uses DynamoDB for state locking.  
 - **VPC Module**: Provisions a secure, scalable, and highly available VPC, using best practices like dynamic availability zones, multiple subnets (public, private, and database), NAT gateways, and fully managed route tables. Includes dynamic tagging and consistent resource naming.  
 
----
+---..
 
 ## Why This Project?
 

@@ -3,34 +3,33 @@ variable "enable_dns_hostnames" {
 }
 
 variable "common_tags" {
-  type = map(any)
+  
 }
 
 
 variable "project_name" {
-  type = string
+  
 }
 
 variable "environment" {
-  type = string
+  
 }
 
 
 variable "public_subnets_tags" {
-  type    = map(string)
+  default = {}
   
 }
 
 variable "private_subnets_tags" {
-  type    = map(string)
+  default = {}
   
 }
 
 variable "database_subnets_tags" {
-  type    = map(string)
+  default = {}
   
 }
-
 
 
 variable "igw_tags" {
@@ -85,4 +84,23 @@ variable "database_route_table_tags" {
   type    = map(string)
   default = {}
 }
+
+variable "vpc_cidr" {
+  type = string
+
+}
+
+variable "is_peering_required" {
+  type    = bool
+  default = false
+}
+
+variable "acceptor_vpc_id" {
+  type    = string
+  default = ""
+}
+
+
+
+
 
